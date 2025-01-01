@@ -12,7 +12,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 
 # Load dataset
-file_path = '/Users/alhafeez/Documents/smt7/bengkod/uas/water_potability.csv'  # Adjust this path
+file_path = 'water_potability.csv'  # Adjust this path
 data = pd.read_csv(file_path)
 
 st.title("Water Potability Analysis")
